@@ -1,0 +1,14 @@
+{
+  "name": "mongodb-crud-nodejs",
+  "version": "1.0.0",
+  "description": "Node.js application to perform CRUD operations with MongoDB",
+  "main": "crudOperations.js",
+  "scripts": {
+    "start": "node crudOperations.js"
+  },
+  "author": "NFThing",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^4.4.1"
+  }
+}
