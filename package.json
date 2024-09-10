@@ -1,14 +1,15 @@
 {
-  "name": "mongodb-crud-nodejs",
+  "name": "jwt-auth-task",
   "version": "1.0.0",
-  "description": "Node.js application to perform CRUD operations with MongoDB",
-  "main": "crudOperations.js",
+  "description": "Task to implement JWT authentication in Node.js without Express.",
+  "main": "server.js",
   "scripts": {
-    "start": "node crudOperations.js"
+    "start": "node server.js"
   },
   "author": "NFThing",
   "license": "ISC",
   "dependencies": {
-    "mongodb": "^4.4.1"
+    "jsonwebtoken": "^9.0.0",
+    "body-parser": "^1.20.2"
   }
 }
